@@ -6,6 +6,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 import java.time.LocalTime;
+import java.time.OffsetTime;
 
 @Getter
 @Setter
@@ -13,4 +14,5 @@ import java.time.LocalTime;
 @AllArgsConstructor
 public class TimeDto {
     private LocalTime localTime;
+    private OffsetTime offsetTime;
 }

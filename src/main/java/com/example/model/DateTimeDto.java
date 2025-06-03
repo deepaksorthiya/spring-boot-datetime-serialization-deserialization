@@ -20,7 +20,7 @@ public class DateTimeDto {
     private LocalDateTime localDateTime;
 
     //@DateTimeFormat(iso = DateTimeFormat.ISO.DATE_TIME)
-    //JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd HH:mm:ss")
+    //@JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd HH:mm:ss")
     private ZonedDateTime zonedDateTime;
 
     @DateTimeFormat(iso = DateTimeFormat.ISO.DATE_TIME, fallbackPatterns = {"yyyy-MM-dd'T'HH:mm:ss.SSSX", })
