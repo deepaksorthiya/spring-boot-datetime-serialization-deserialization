@@ -1,5 +1,5 @@
 [![Java Maven Build Test](https://github.com/deepaksorthiya/spring-boot-datetime-serialization-deserialization/actions/workflows/maven-build.yml/badge.svg)](https://github.com/deepaksorthiya/spring-boot-datetime-serialization-deserialization/actions/workflows/maven-build.yml) <br>
-[![Docker Pulls](https://img.shields.io/docker/pulls/deepaksorthiya/spring-boot-datetime-serialization-deserialization)](https://hub.docker.com/r/deepaksorthiya/spring-boot-datetime-serialization-deserialization)
+[![Docker Pulls](https://img.shields.io/docker/pulls/deepaksorthiya/spring-boot-datetime-serialization-deserialization?style=for-the-badge)](https://hub.docker.com/r/deepaksorthiya/spring-boot-datetime-serialization-deserialization)
 
 ---
 
