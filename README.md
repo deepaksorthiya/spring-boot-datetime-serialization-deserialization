@@ -13,7 +13,7 @@
 
 ```
 Git: 2.51+
-Spring Boot: 3.5.10
+Spring Boot: 3.5.12
 Maven: 3.9+
 Java: 25
 Docker Desktop: Tested on 4.50+
