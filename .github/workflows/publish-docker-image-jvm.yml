@@ -2,8 +2,8 @@
 name: Publish a Docker image to Github and DockerHub Using Dockerfile
 
 on:
-  release:
-    types: [ published ]
+  #  release:
+  #    types: [ published ]
   workflow_dispatch:
 
 jobs:
@@ -48,7 +48,7 @@ jobs:
 
       - name: Build and push image
         id: push
-        uses: docker/build-push-action@v7.2.0
+        uses: docker/build-push-action@v7
         with:
           context: .
           push: true
@@ -56,7 +56,7 @@ jobs:
           labels: ${{ steps.meta.outputs.labels }}
 
       - name: Attest
-        uses: actions/attest-build-provenance@v4.1.0
+        uses: actions/attest-build-provenance@v4.2.2
         id: attest
         with:
           subject-name: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}

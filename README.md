@@ -1,9 +1,19 @@
-[![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/deepaksorthiya/spring-boot-datetime-serialization-deserialization/maven-build.yml?style=for-the-badge&label=Java%20Maven%20Build%20Test)](https://github.com/deepaksorthiya/spring-boot-datetime-serialization-deserialization/actions/workflows/maven-build.yml)
-[![Docker Pulls](https://img.shields.io/docker/pulls/deepaksorthiya/spring-boot-datetime-serialization-deserialization?style=for-the-badge)](https://hub.docker.com/r/deepaksorthiya/spring-boot-datetime-serialization-deserialization)
+<h1 style="text-align: center;">Spring Boot Date and Time Format, Serialization and DeSerialization Testing</h1>
 
----
-
-### ** Spring Boot Date and Time Format, Serialization and DeSerialization Testing **
+<p style="text-align: center;">
+  <a href="https://github.com/deepaksorthiya/spring-boot-datetime-serialization-deserialization/actions/workflows/maven-jvm-non-native-build.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/deepaksorthiya/spring-boot-datetime-serialization-deserialization/maven-jvm-non-native-build.yml?style=for-the-badge&label=JVM%20Maven%20Build" alt="JVM Maven Build"/>
+  </a>  
+  <a href="https://github.com/deepaksorthiya/spring-boot-datetime-serialization-deserialization/actions/workflows/maven-graalvm-native-build.yml">
+    <img src="https://img.shields.io/github/actions/workflow/status/deepaksorthiya/spring-boot-datetime-serialization-deserialization/maven-graalvm-native-build.yml?style=for-the-badge&label=GraalVM%20Maven%20Build" alt="GraalVM Maven Build"/>
+  </a>
+  <a href="https://hub.docker.com/r/deepaksorthiya/spring-boot-datetime-serialization-deserialization">
+    <img src="https://img.shields.io/docker/pulls/deepaksorthiya/spring-boot-datetime-serialization-deserialization?style=for-the-badge" alt="Docker"/>
+  </a>
+  <a href="https://spring.io/projects/spring-boot">
+    <img src="https://img.shields.io/badge/spring--boot-3.5.16-brightgreen?logo=springboot&style=for-the-badge" alt="Spring Boot"/>
+  </a>
+</p>
 
 ---
 
@@ -13,8 +23,8 @@
 
 ```
 Git: 2.51+
-Spring Boot: 3.5.12
-Maven: 3.9+
+Spring Boot: 3.5.16
+Maven: 3.10.0+
 Java: 25
 Docker Desktop: Tested on 4.50+
 ```
@@ -44,7 +54,7 @@ OR
 java -jar .\target\spring-boot-datetime-serialization-deserialization-0.0.1-SNAPSHOT.jar
 ```
 
-## (Optional)Build Docker Image(docker should be running):
+## (Optional)Build Docker Image (docker should be running):
 
 ```bash
 ./mvnw clean spring-boot:build-image -DskipTests

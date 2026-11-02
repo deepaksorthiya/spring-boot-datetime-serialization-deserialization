@@ -29,3 +29,11 @@ updates:
       time: "23:59"
       timezone: "Asia/Calcutta"
     open-pull-requests-limit: 50
+  # Enable version updates for docker-compose
+#  - package-ecosystem: "docker-compose"
+#    directory: "/"
+#    schedule:
+#      interval: "daily"
+#      time: "23:59"
+#      timezone: "Asia/Calcutta"
+#    open-pull-requests-limit: 50
